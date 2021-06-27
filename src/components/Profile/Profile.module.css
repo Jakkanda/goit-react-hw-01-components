@@ -1,0 +1,45 @@
+.profile {
+  padding: 10px;
+  background-color: #d1d3bd;
+}
+
+.description {
+  padding: 5px;
+  background-color: #fff;
+}
+.avatar {
+  display: block;
+  width: 50%;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.name,
+.tag,
+.location {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.quantity {
+  font-size: 24px;
+  font-weight: bold;
+  color: blue;
+}
