@@ -1,4 +1,16 @@
-.transaction_history {
+.transactionHistory {
+  table-layout: fixed;
+  width: 100%;
   border-collapse: collapse;
-  border: 1px solid grey;
+  border: 3px solid purple;
+  text-align: center;
+  background-image: linear-gradient(180deg, orange 60%, cyan);
+}
+
+.transactionHistory th {
+  padding: 10px;
+}
+
+.transactionHistory td {
+  padding: 10px;
 }

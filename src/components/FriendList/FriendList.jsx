@@ -5,7 +5,7 @@ import { FriendListItem } from '../FriendsListItem/FriendListItem';
 
 export function FriendList({ friends }) {
   return (
-    <ul class="friend-list">
+    <ul className={styles.friendList}>
       {friends.map(friend => {
         return (
           <FriendListItem
