@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import defaultImage from '../../avatar.png';
 import styles from './FriendListItem.module.css';
 
-export function FriendListItem({ avatar, name, isOnline }) {
+export function FriendListItem({ avatar = defaultImage, name, isOnline }) {
 const onlineStatus = `${isOnline ? 'online' : 'offline'}`
   return (
     <li className={styles.item}>
@@ -20,6 +21,6 @@ const onlineStatus = `${isOnline ? 'online' : 'offline'}`
 
 FriendListItem.propTypes = {
   avatar: PropTypes.string,
-  name: PropTypes.string,
-  isOnline: PropTypes.bool,
+  name: PropTypes.string.isRequired,
+  isOnline: PropTypes.bool.isRequired,
 };
